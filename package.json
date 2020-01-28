@@ -28,6 +28,7 @@
   "homepage": "https://github.com/kmjayadeep/docker-compose-generator#readme",
   "preferGlobal": true,
   "dependencies": {
+    "json2yaml": "^1.1.0",
     "yargs": "^15.1.0"
   }
 }
