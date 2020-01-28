@@ -1,0 +1,33 @@
+{
+  "name": "docker-compose-generator",
+  "version": "1.0.0",
+  "description": "Generate docker compose yaml file from command line",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "bin": {
+    "dcg": "./bin/index.js",
+    "docker-compose-generator": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmjayadeep/docker-compose-generator.git"
+  },
+  "keywords": [
+    "docker",
+    "compose",
+    "generator",
+    "yaml"
+  ],
+  "author": "Jayadeep KM <kmjayadeep@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmjayadeep/docker-compose-generator/issues"
+  },
+  "homepage": "https://github.com/kmjayadeep/docker-compose-generator#readme",
+  "preferGlobal": true,
+  "dependencies": {
+    "yargs": "^15.1.0"
+  }
+}
